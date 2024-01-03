@@ -1,3 +1,5 @@
+
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -49,7 +51,7 @@
     padding-bottom: 10px;
 }
 
-button {
+.button1 {
     background: #3882F6;
     color: white;
     font-family: Roboto, sans-serif;
@@ -72,3 +74,96 @@ a {
     text-decoration: none;
 }
 
+.image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.catalog {
+    display: flex;
+    gap: 52px;
+    height: 300px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 16px;
+}
+
+.text {
+    width: 140px;
+    flex-wrap: wrap;
+}
+
+.image {
+    text-align: center;
+    
+}
+
+.testimonial {
+    display: flex;
+    height: 300px;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote{
+    width: 800px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-by {
+    font-style: bold;
+    font-size: 36px;
+    padding-left: 400px 
+}
+
+.sign-banner {
+    height: 300px;
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    border-radius: 25px;
+    gap: 42px; 
+}
+
+.banner-sign-up-button {
+    border-color: white;
+}
+
+.button2 {
+    background: #3882F6;
+    color: white;
+    font-family: Roboto, sans-serif;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.call {
+    color: white;
+    font-weight: bold;
+}
+
+.sign-up-message {
+    color: whitesmoke;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
